@@ -5,4 +5,7 @@ public class HelloWorld {
     public static void noPrint(String[] args) {
         System.out.print("no print");
     }
+    public static void noprinttwo(String[] args) {
+        System.out.print("no print two");
+    }
 }
