@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class StringExercise {
     public static void main(String[] args) {
         /////////Exercise 1.1
@@ -16,12 +18,8 @@ public class StringExercise {
 //        String myString = "I can do backslashes \\, double backslashes \\\\,\nand the amazing triple backslash \\\\\\!";
 //        System.out.println(myString);
 
-        /////////Exercise 2
-
-
-
-
 
 
     }
 }
+
