@@ -10,5 +10,6 @@ public class BurgerTester {
         System.out.println(BurgerTools.temperatureWhenCooked);
         BurgerTools.grill();
 
+
     }
 }
