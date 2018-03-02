@@ -22,16 +22,12 @@ public class HighLow {
         }
     }
 
-
-
-
     public static void guesMyNumber (Scanner sc) {
+
         boolean keepGuessin = true;
         String userChoice;
         Random rand = new Random();
         long randomNum = rand.nextInt(100) + 1;
-
-
 
         do {
             System.out.println("Guess My Number Between 1 and 100!");
@@ -44,7 +40,10 @@ public class HighLow {
                 System.out.println("On The Nose!!!!");
                 keepGuessin = false;
             }
-
         } while (keepGuessin);
     }
+
+
+
+
 }

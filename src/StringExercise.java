@@ -18,7 +18,8 @@ public class StringExercise {
 //        String myString = "I can do backslashes \\, double backslashes \\\\,\nand the amazing triple backslash \\\\\\!";
 //        System.out.println(myString);
 
-
+        int x = 5 * 4 % 3;
+        System.out.println(x);
 
     }
 }
