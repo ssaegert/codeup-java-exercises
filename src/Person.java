@@ -3,10 +3,20 @@ public class Person {
     public static void main(String[] args) {
 
         Person p1 = new Person("Scott");
-        System.out.println(p1.getName());
+//        System.out.println(p1.getName());
         p1.setName("Newman");
-        System.out.println(p1.name);
-        p1.sayHello();
+//        System.out.println(p1.name);
+//        p1.sayHello();
+
+        Person person1 = new Person("John");
+        Person person2 = person1;
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
+        person2.setName("Jane");
+        System.out.println(person1.getName());
+        System.out.println(person2.getName());
+
+
     }
 
 
