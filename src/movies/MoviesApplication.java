@@ -7,9 +7,9 @@ public class MoviesApplication {
         String userInput;
 
         do {
-            movieList();
-            System.out.println("Enter your choice: ");
-            userInput = input.getString();
+        movieList();
+        System.out.println("Enter your choice: ");
+        userInput = input.getString();
 
         switch(userInput){
             case "1":
@@ -30,13 +30,13 @@ public class MoviesApplication {
             case "6":
                 MoviesByCat("musical");
                 break;
-            }
-        } while(!userInput.equals("0"));
+        }
+    } while(!userInput.equals("0"));
 
 
 
         System.out.println("DONE");
-    }
+}
 
     public static void movieList() {
         System.out.println("0 - exit");
